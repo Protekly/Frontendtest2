@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,400&display=swap');
+
+
+.mont{
+  font-family: 'Montserrat', sans-serif;
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.animated-image {
+  opacity: 0;
+  /* width: 0px;
+  height: 0px; */
+  transition: opacity 0.5s, width 0.5s, height 0.5s;
+}
+
+.animated-image.show {
+  opacity: 1;
+}
+
+
+.animated-image1 {
+  opacity: 0;
+  /* width: 0px;
+  height: 0px; */
+  transition: opacity 0.5s, width 0.5s, height 0.5s;
+}
+
+.animated-image1.show1 {
+  opacity: 1;
+}
+
+
+@font-face {
+  font-family: EloquenceFont;
+  src: url("/public/fonts/Eloquence-Bold.ttf");
+}
+
+.eloquence{
+  font-family: EloquenceFont;
+
+}
+/* @font-face {
+  font-family: Alpina;
+  src: url("../GT Alpina.ttf");
+}
+
+
+.heading{
+  font-family: "Alpina";
+} */
